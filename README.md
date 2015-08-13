@@ -3,11 +3,11 @@ A local copy of CLUSTER module, Mirplan and DUPLEX module - plant miRNA software
 
 
 ## SMART TOOLS
-============
+
 University of Plovdiv, Dept. Molecular biology, SMART - bio2server.bioinfo.uni-plovdiv.bg
 
 ## CLUSTER module (cluster.jar)
-~~~~~~~~~~~~
+
 
 Requirements - Java
 USAGE: java -jar clusters.jar sRNA.gff 1 2 3 4
@@ -20,7 +20,7 @@ sRNA.gff - GFF file for sRNAs genomic coordinates
   
 
 ## MIRPLAN module (mirplan.pl)
-~~~~~~~~~~~~
+
 
 Requirements - Perl, Bioperl, RNA Vienna package v1.8 (RNAfold, Hofacker et al. 2009)
 USAGE:perl mirplan.pl file.fasta file.out
@@ -31,7 +31,7 @@ file.out.fasta - output file with FASTA sequences
 
 	
 ## DUPLEX module  (duplex.pl)
-~~~~~~~~~~~~~
+
 
 Requirements - Perl, Bioperl, RNA Vienna package v1.8 (RNAcofold, Hofacker et al. 2009)
 USAGE: perl duplex.pl sRNA.gff file.out.fasta [table_file] file.out
